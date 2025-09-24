@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanuel | skills</title>
+    <link rel="stylesheet" href="portifolio.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="mother">
+
+        <div id="left">
+
+            <div class="top-left">
+           <div class="logo">
+          <img src="logo.jpg" alt="Aman logo" class="logo-img">
+        
+          </div>
+          <div class="intro">
+            <h1>Aman</h1>
+            <h3>Web Developer</h3>
+          </div>
+</div>
+<div class="bottom-left">
+           <!-- Hamburger menu button for mobile -->
+<button id="menu-toggle" class="menu-btn">
+  <i class="fa-solid fa-bars"></i>
+</button>
+  
+  <div id="nav">
+          <ul>
+          <li class="list"><a href="portifolio.html">Home</a></li>
+          <li class="list"><a href="projects.html">Projects</a></li>
+          <li class="list"><a href="about.html">About</a></li>
+          <li class="list" style="background-color: rgb(73, 73, 73)"><a href="skills.html">Skills</a></li>
+           <li class="list"><a href="education.html">Education</a></li>
+          <li class="list"><a href="contact.html">Contact</a></li>
+            
+          </ul>
+
+          </div>
+</div>
+
+        </div>
+
+
+        <div id="right">
+
+  <div class="skills" role="main" aria-label="Skills Section">
+   <h1>My Skills</h1>
+    <ul>
+ <li>
+     <i class="fa-brands fa-html5" aria-hidden="true"></i> HTML
+     <span class="skill-rating" aria-label="Proficiency: 5 out of 5 stars">★★★★★</span>
+     <button class="reveal-btn" aria-controls="html-exp" aria-expanded="false" onclick="toggleExplain('html-exp', this)">How I learned</button>
+     <div id="html-exp" class="explanation" aria-live="polite" hidden>
+       Learned core HTML from a 6-hour SuperSimpleDev YouTube tutorial, then practiced extensively on FreeCodeCamp’s Responsive Web Design track, and went deeper in Dr. Angela Yu’s full-stack Udemy course.
+     </div>
+   </li>
+   <li>
+     <i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS
+     <span class="skill-rating" aria-label="Proficiency: 5 out of 5 stars">★★★★★</span>
+     <button class="reveal-btn" aria-controls="css-exp" aria-expanded="false" onclick="toggleExplain('css-exp', this)">How I learned</button>
+     <div id="css-exp" class="explanation" aria-live="polite" hidden>
+       Mastered CSS alongside HTML through the same SuperSimpleDev video, built responsive layouts on FreeCodeCamp, and refined advanced styling techniques in the Udemy full-stack course.
+     </div>
+   </li>
+   <li>
+     <i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript
+     <span class="skill-rating" aria-label="Proficiency: 4 out of 5 stars">★★★★☆</span>
+     <button class="reveal-btn" aria-controls="js-exp" aria-expanded="false" onclick="toggleExplain('js-exp', this)">How I learned</button>
+     <div id="js-exp" class="explanation" aria-live="polite" hidden>
+       Gained JavaScript fundamentals while working through FreeCodeCamp challenges and built real projects during Dr. Angela Yu’s full-stack developer course on Udemy.
+     </div>
+   </li>
+   <!-- Repeat for other skills, changing icons and ratings as appropriate -->
+   <!-- Example for React.js -->
+   <li>
+     <i class="fa-brands fa-react" aria-hidden="true"></i> React.js
+     <span class="skill-rating" aria-label="Proficiency: 4 out of 5 stars">★★★★☆</span>
+     <button class="reveal-btn" aria-controls="react-exp" aria-expanded="false" onclick="toggleExplain('react-exp', this)">How I learned</button>
+     <div id="react-exp" class="explanation" aria-live="polite" hidden>
+       Learned React through the React section of Dr. Angela Yu’s Udemy full-stack course, creating reusable components and managing state with hooks.
+     </div>
+   </li>
+  <li>
+    <i class="fa-brands fa-node" aria-hidden="true"></i>Node.js
+    <span class="skill-rating" aria-label="Proficiency: 4 out of 5 stars">★★★★☆</span>
+    <button class="reveal-btn" onclick="toggleExplain('node-exp', this)">How I learned</button>
+    <div id="node-exp" class="explanation" hidden>
+       Picked up Node.js in the backend modules of Dr. Angela Yu’s Udemy course, building RESTful APIs and understanding Express server concepts.
+    </div>
+  </li>
+     <li>
+       <i class="fa-brands fa-square-js" aria-hidden="true"></i> Express.js
+        <span class="skill-rating" aria-label="Proficiency: 4 out of 5 stars">★★★★★</span>
+        <button class="reveal-btn" onclick="toggleExplain('express-exp', this)">How I learned</button>
+        <div id="express-exp" class="explanation" hidden>
+          I learned routing, middleware, and RESTful API design through hands-on projects.
+        </div>
+    </li>
+     <li>
+      <i class="fa-brands fa-envira" aria-hidden="true"></i> MongoDB
+        <span class="skill-rating" aria-label="Proficiency: 3 out of 5 stars">★★★☆☆</span>
+        <button class="reveal-btn" onclick="toggleExplain('mongo-exp', this)">How I learned</button>
+        <div id="mongo-exp" class="explanation" hidden>
+          I explored NoSQL databases, practiced CRUD operations, and integrated MongoDB with Node.js.
+        </div>
+     </li>
+     <li>
+        <i class="fa-brands fa-ethereum" aria-hidden="true"></i> Web3
+        <span class="skill-rating" aria-label="Proficiency: 2 out of 5 stars">★★☆☆☆</span>
+        <button class="reveal-btn" onclick="toggleExplain('web3-exp', this)">How I learned</button>
+        <div id="web3-exp" class="explanation" hidden>
+          I studied blockchain basics, smart contracts, and built simple DApps using Web3.js.
+        </div>
+     </li>
+     <li>
+          <i class="fa-brands fa-ethereum" aria-hidden="true"></i> DApps
+        <span class="skill-rating" aria-label="Proficiency: 2 out of 5 stars">★★☆☆☆</span>
+        <button class="reveal-btn" onclick="toggleExplain('dapp-exp', this)">How I learned</button>
+        <div id="dapp-exp" class="explanation" hidden>
+          I combined my web development skills with blockchain knowledge to create decentralized applications.
+        </div>
+     </li>
+     <li>
+        <i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git & GitHub
+        <span class="skill-rating" aria-label="Proficiency: 4 out of 5 stars">★★★★☆</span>
+        <button class="reveal-btn" onclick="toggleExplain('git-exp', this)">How I learned</button>
+        <div id="git-exp" class="explanation" hidden>
+          I learned version control basics, branching, and collaboration through hands-on use in projects.
+        </div>
+     </li>
+     <li>
+          <i class="fa-solid fa-mobile-screen" aria-hidden="true"></i> Responsive Web Design
+        <span class="skill-rating" aria-label="Proficiency: 4 out of 5 stars">★★★★☆</span>
+        <button class="reveal-btn" onclick="toggleExplain('rwd-exp', this)">How I learned</button>
+        <div id="rwd-exp" class="explanation" hidden>
+          I practiced building layouts that adapt to different screen sizes using media queries and flexible grids.
+        </div>
+     </li>
+     <li>
+         <i class="fa-solid fa-brain" aria-hidden="true"></i> Problem Solving
+        <span class="skill-rating" aria-label="Proficiency: 4 out of 5 stars">★★★★☆</span>
+        <button class="reveal-btn" onclick="toggleExplain('ps-exp', this)">How I learned</button>
+        <div id="ps-exp" class="explanation" hidden>
+          I improved my debugging and algorithm skills through coding challenges and real-world projects.
+        </div>
+     </li>
+     <li>
+          <i class="fa-solid fa-database" aria-hidden="true"></i> PostgreSQL
+        <span class="skill-rating" aria-label="Proficiency: 3 out of 5 stars">★★★☆☆</span>
+        <button class="reveal-btn" onclick="toggleExplain('psql-exp',this)">How I learned</button>
+        <div id="psql-exp" class="explanation" hidden>
+          I learned relational database concepts, SQL queries, and data modeling through practical exercises.
+        </div>
+     </li>
+
+  </div>
+
+        </div>
+    </div>
+
+    <script src="portifolio.js"></script>
+</body>
+</html>
+
+
+
+
+
+

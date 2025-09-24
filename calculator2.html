@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+ </head>   
+ <body>
+    <div class="calculator" style="width: 400px; height: 40%; margin: 100px auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+        <input type="text" id="display" disabled style="width: 100%; padding: 10px; font-size: 24px; text-align: right; border: 1px solid #ccc; border-radius: 5px;">
+        <div class="buttons" style="width: 100%; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+            <button onclick="Clear()" id="Clear">C</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')">x</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="Result()">=</button>
+            <button onclick="appendToDisplay('+')">+</button>
+        </div>
+    </div>
+
+    <script src="portifolio.js"></script>   
+ </body>
+
+</html>
