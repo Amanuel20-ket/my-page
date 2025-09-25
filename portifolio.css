@@ -578,13 +578,14 @@ width: 100%;
 }
 
     .social-links {
-  width: 100vw;
+  width: 80%;
   display: block;
    flex-direction: column;     
         
         
 
 }
+
 
 
 
