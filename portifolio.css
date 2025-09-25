@@ -578,10 +578,12 @@ width: 100%;
 }
 
     .social-links {
-        width: 100%;
+  width: 100vw;
+        
         
 
 }
+
 
 
 
