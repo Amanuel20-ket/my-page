@@ -562,7 +562,10 @@ html, body {
     #nav ul.show {
         display: flex;
     }
-
+.social-links {
+ width: 100vw;
 }
+}
+
 
 
