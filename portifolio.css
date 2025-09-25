@@ -434,7 +434,7 @@ html, body {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: auto;
+        height: 100vh;
     }
     #left {
         height: auto;
@@ -564,3 +564,4 @@ html, body {
     }
 
 }
+
